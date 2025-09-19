@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "68c08d157ffa374671eec4aa"
+  },
+  "brand": "Lacoste",
+  "measurement": {
+    "left": 2.1,
+    "right": 2.2
+  },
+  "frame_type": "flying",
+  "frame_colour": {
+    "left": "orange",
+    "right": "green"
+  },
+  "price": 129.45,
+  "supplier": {
+    "name": "Subpar Supplier",
+    "address": {
+      "street": "Broad Road",
+      "number": 23,
+      "floor": 1,
+      "door": 1,
+      "municipality": "Mostoles",
+      "postal_code": "08040",
+      "country": "Spain"
+    },
+    "phone": "666778899",
+    "fax": "987654321"
+  },
+  "bought_by": {
+    "name": "Margarita",
+    "surname": "Sanchez",
+    "address": {
+      "street": "Straight Street",
+      "number": 78,
+      "floor": 1,
+      "door": 1,
+      "municipality": "Birmingham",
+      "postal_code": "11-456",
+      "country": "The United Kingdom"
+    },
+    "phone": "998887755",
+    "recommended_by": {
+      "id": "16549843132165"
+    },
+    "registration_date": {
+      "$date": "2025-01-25T00:00:00.000Z"
+    }
+  }
+}]

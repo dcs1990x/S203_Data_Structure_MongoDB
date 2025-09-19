@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "68c07ad97ffa374671eec4a9"
+  },
+  "name": "Manolo",
+  "surname": "Garcia",
+  "address": {
+    "street": "Via Augusta",
+    "number": 11,
+    "floor": 2,
+    "door": 2,
+    "municipality": "Barcelona",
+    "postal_code": "08080",
+    "country": "Spain"
+  },
+  "phone": "685777222",
+  "email": "ihaveanemail@gmail.com",
+  "recommended_by": {
+    "name": "Paquita Martinez"
+  },
+  "registration_date": {
+    "$date": "1990-01-01T00:00:00.000Z"
+  },
+  "last_sale": {
+    "glasses": {
+      "brand": "Ray Ban"
+    },
+    "measurement": {
+      "left": 2.4,
+      "right": 2.2
+    },
+    "frame_type": "flying",
+    "frame_colour": "black",
+    "glass_colour": {
+      "left": "white",
+      "right": "gray"
+    },
+    "price": 149.9,
+    "supplier": {
+      "name": "Best Supplier",
+      "address": {
+        "street": "Port Street",
+        "number": 46,
+        "floor": 1,
+        "door": 1,
+        "municipality": "London",
+        "postal_code": "22-444",
+        "country": "United Kingdom"
+      },
+      "phone": "99666333",
+      "fax": "12345679",
+      "company_tax_code": "44555777B"
+    }
+  },
+  "sold_by": {
+    "name": "Laura",
+    "surname": "Gomez"
+  },
+  "sale_date": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  }
+}]
